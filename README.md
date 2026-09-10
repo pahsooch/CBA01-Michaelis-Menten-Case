@@ -19,6 +19,7 @@ Since enzyme is not consumed in the reaction, therefore enzyme is constant which
 e(t) = e_T - c(t)
 
 Therefore the equation for this case.
+
 $$\frac{d}{dt} s(t) = -k_1 s(t) (e_T - c(t)) - k_{-1} c(t)$$
 $$\frac{d}{dt} c(t) = k_1 s(t) (e_T - c(t)) - k_{-1} c(t) - k_2 c(t)$$
 $$\frac{d}{dt} p(t) = k_2 c(t)$$
