@@ -15,7 +15,7 @@ $$v_{-2} = k_{-2} [C_2]$$
 $$v_3 = k_3 [C_2]$$
 $$v_{-3} = k_{-3} [P][E]$$
 
-The total concentration from this kinetics is The total enzyme concentration: $e_T = e + c_1 + c_2$. so, We can extract the different equations of kinetics as below. 
+The total concentration from this kinetics is The total enzyme concentration: $e_T = e + c_1 + c_2$. So, We can extract the different equations of kinetics as below. 
 
 $$\frac{d}{dt} s(t) = -v_1 + v_{-1} = -k_1 s(t) e(t) + k_{-1} c_1(t)$$
 $$\frac{d}{dt} e(t) = -v_1 + v_{-1} + v_3 - v_{-3} = -k_1 s(t) e(t) + k_{-1} c_1(t) + k_3 c_2(t) - k_{-3} p(t) e(t)$$
@@ -51,4 +51,4 @@ $$\frac{d}{dt} s(t) = -k_1 s(t) (e_T - c(t)) - k_{-1} c(t)$$
 $$\frac{d}{dt} c(t) = k_1 s(t) (e_T - c(t)) - k_{-1} c(t) - k_2 c(t)$$
 $$\frac{d}{dt} p(t) = k_2 c(t)$$
 
-![](Full-Defined-Michaelis-Menten.png)
+![](Simplified-Michaelis-Menten.png)
